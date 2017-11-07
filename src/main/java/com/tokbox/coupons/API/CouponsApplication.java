@@ -12,12 +12,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
  * Info :-Spring boot starter class for Tokbox coupons service
  * */
 @SpringBootApplication
-@EnableJpaRepositories("com.tokbox.Coupons.repository")
-@EntityScan("com.tokbox.Coupons.model")
-@ComponentScan("com.tokbox.Coupons.service")
-@ComponentScan("com.tokbox.Coupons.exception")
-@ComponentScan("com.tokbox.Coupons.controller")
-@ComponentScan("com.tokbox.Coupons.config")
+@EnableJpaRepositories("com.tokbox.coupons.repository")
+@EntityScan("com.tokbox.coupons.model")
+@ComponentScan("com.tokbox.coupons.service")
+@ComponentScan("com.tokbox.coupons.exception")
+@ComponentScan("com.tokbox.coupons.controller")
+@ComponentScan("com.tokbox.coupons.config")
 public class CouponsApplication {
 
 	public static void main(String[] args) {
